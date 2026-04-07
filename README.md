@@ -1,20 +1,70 @@
 # Say-Tahmini-Oyunu-Python
 Bu proje kullanıcıdan  bir sayı tahmin  etmesini isteyen  kullanıcı  dostu  bir Python  oyunu içeriyor.
+
 🚀 10 Günlük Python Proje Serisi - 1. GÜN: Sayı Tahmin Oyunu
 
-Bu depo, Python programlama diline yeni başlayanlar için temel mantığı kavratmayı amaçlayan 10 Günlük Mini Proje Serisi'nin ilk projesini içermektedir.
+Python: Intelligent Number Guessing Game 🎮
 
-    Günün Mottosu: "Hata yapmaktan korkmayın, hata yapmadığınızda aslında yeni bir şey öğrenmiyorsunuz demektir." 💡
+Bu proje, Python programlama dilinin temel yapı taşlarını (döngüler, koşullu ifadeler ve rastgele veri üretimi) kullanarak geliştirilmiş interaktif bir sayı tahmin oyunudur.
 
-🎮 Proje 1: Sayı Tahmin Oyunu Hakkında
+📌 Proje Özeti
+Bu çalışma, bilgisayar tarafından rastgele üretilen bir sayının kullanıcı tarafından en az deneme ile bulunmasını hedefler. Algoritmik açıdan bakıldığında, proje aslında bir "Binary Search" (İkili Arama) mantığının insan-bilgisayar etkileşimiyle simüle edilmiş halidir. Kullanıcıya verilen "daha yüksek" veya "daha düşük" komutları, veri kümesini her adımda daraltarak çözüme ulaştırır.
 
-Bu proje; programlamanın temel taşları olan döngüler, koşullu ifadeler ve kullanıcı etkileşimi konularını pekiştirmek amacıyla geliştirilmiştir. Bilgisayarın rastgele tuttuğu bir sayıyı, kullanıcının yönlendirmelerle (aşağı/yukarı) bulmasını hedefler.
-✅ Bu Projede Neler Öğreniyoruz?
+🛠 Teknik Yetkinlikler
 
-    random kütüphanesi ile rastgele veri üretimi.
+    Dil: Python 3.x
 
-    while döngüsü ile program akışını yönetme.
+    Kütüphaneler: random (Psödo-rastgele sayı üretimi için).
 
-    if-elif-else bloklarıyla karar mekanizmaları kurma.
+    Kontrol Yapıları:
 
-    input() ve f-string yapılarıyla kullanıcı etkileşimi.
+        while True: Sonsuz döngü ile kesintisiz oyun akışı.
+
+        if-elif-else: Karar mekanizmaları ile yönlendirme.
+
+        input() & f-string: Dinamik kullanıcı etkileşimi ve veri formatlama.
+        
+
+📈 Oyun Akışı ve Algoritma
+
+    Veri Üretimi: Sistem 1 ile 100 arasında gizli bir tam sayı üretir.
+
+    Girdi İşleme: Kullanıcıdan bir tam sayı tahmini alınır.
+
+    Karşılaştırma:
+
+        Tahmin < Gizli Sayı → "Daha yüksek!" uyarısı.
+
+        Tahmin > Gizli Sayı → "Daha düşük!" uyarısı.
+
+    Sonuç: Doğru tahmin yapıldığında, toplam deneme sayısı hesaplanarak oyun sonlandırılır.
+    
+
+🚀 Çalıştırma
+
+Projeyi yerel makinenizde çalıştırmak için:
+
+    Python'un yüklü olduğundan emin olun.
+
+    Kodu bir .py dosyasına kaydedin.
+
+    Terminal üzerinden python dosya_adi.py komutuyla oyunu başlatın.
+
+📝 Örnek Senaryo
+Plaintext
+
+1 ile 100 arasında bir sayi tuttum. Bakalim bulabilcek misin?
+Tahminin nedir?: 50
+Daha yüksek bir sayı söyle!
+Tahminin nedir?: 75
+Tebrikler! 75 sayısını 2 denemede buldun.
+
+Bu basit oyun, veri setleri içinde arama yaparken kullanılan mantıksal operatörlerin ve karar ağaçlarının (decision trees) en temel halini temsil etmektedir.
+
+Geliştiren: Mercan Köseoğlu
+
+Data Analyst & SAP ABAP Consultant  
+
+![sayı  tahmin oyunu](https://github.com/user-attachments/assets/552aeecb-66a0-4a35-842d-1f8d6809c124)
+
+
